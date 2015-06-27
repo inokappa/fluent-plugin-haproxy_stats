@@ -30,7 +30,7 @@ Or install it yourself as:
 
 ```
 global
-    stats socket /path/to/stats
+    stats socket /path/to/stats mode 666 level user
 
 defaults
     mode    http
