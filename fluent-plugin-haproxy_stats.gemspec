@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Fluentd plugin fo HAProxy info and stats}
   spec.description   = %q{Fluentd plugin fo HAProxy info and stats}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/inokappa/fluent-plugin-haproxy_stats"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
